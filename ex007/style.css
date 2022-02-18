@@ -1,0 +1,52 @@
+@charset "UFT-8";
+
+body
+{
+    background-image: linear-gradient(to right, #B68D40,#d6ad60bd);  
+}
+
+main
+{
+    background-color: white;                          /* Em HTMl id = # CSS ///// EM HTML class = . CSS */
+    border-radius: 10px;                                   
+    box-shadow: 5px 5px 15px #fdc45ad2;                    
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1
+{
+ color: #316454;
+}
+
+h2
+{
+    color: #fcdb79;
+}
+
+h1#principal
+{
+    text-align: center;
+    text-shadow: 1px 1px 2px #284e43;
+}
+
+.basico
+{
+    color: #F8D210;
+}
+
+.intermediario
+{
+    color: #2FF3E0;
+}
+
+.avançado
+{
+    color: #F51720;
+}
+
+.destaque
+{
+background-color: yellowgreen;
+}

@@ -1,0 +1,32 @@
+@charset "UFT-8";
+
+body
+{
+    background-image:  linear-gradient(to right, #FFAEBC, #A0E7E5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div
+{
+    display: inline-block;
+    background-color: #FBE7C6;
+    border: 1px solid  #978c7977;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    position:relative;
+    left: 27%;
+    
+}
+
+div > p
+{
+    display: none;
+}
+
+div:hover > p
+{
+    display: block;
+    color: black;
+    background-color: #B4F8C8;
+}
